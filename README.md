@@ -45,5 +45,6 @@ python load.py
 ## 5. Verify in PostgreSQL
 
 Run your queries:
-
+```bash
 psql -U youruser -d yourdb -c "SELECT * FROM weather_table LIMIT 10;"
+```
