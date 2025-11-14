@@ -47,4 +47,3 @@ python load.py
 Run this inside your terminal:
 ```bash
 psql -U youruser -d yourdb -c "SELECT * FROM weather_table LIMIT 10;"
-```
