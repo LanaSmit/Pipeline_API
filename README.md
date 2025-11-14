@@ -13,7 +13,7 @@ API_KEY=your_api_key_here
 ```
 ## 2. Install Dependencies
 
-Run:
+Run this in your WSL Ubuntu terminal:
 ```bash
 pip install requests pandas python-dotenv psycopg2-binary matplotlib seaborn
 ```
@@ -34,14 +34,14 @@ This creates the dataframe df.
 Step 2: Load into PostgreSQL
 
 Update connection string in load.py:
-
+```bash
 conn = "dbname=yourdb user=youruser password=yourpassword host=localhost port=5432"
+```
 
-
-Then run:
-
+Run this in your WSL Ubuntu terminal:
+```bash
 python load.py
-
+```
 ## 5. Verify in PostgreSQL
 
 Run your queries:
